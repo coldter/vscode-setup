@@ -4,7 +4,7 @@
   "editor.detectIndentation": false,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
-  "editor.fontFamily": "RobotoMono NF",
+  "editor.fontFamily": "'RobotoMono NF', 'arial', 'sans-serif'",
   "editor.insertSpaces": false,
   "editor.fontSize": 16,
   "editor.inlineSuggest.enabled": true,
