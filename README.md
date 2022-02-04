@@ -1,6 +1,8 @@
 # vscode-setup
 Preference setting for vscode
 
+<img src="./img/vsim.svg" style="margin:auto;">
+
 ## Extensions
 
 | ALL EXTENSION |  |
