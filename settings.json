@@ -1,0 +1,71 @@
+{
+  //editor
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "RobotoMono NF",
+  "editor.insertSpaces": false,
+  "editor.fontSize": 16,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+
+  //code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  //theming
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.iconTheme": "material-icon-theme",
+
+  //telemetry
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+
+  //others
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "thunder-client.codeSnippetLanguage": "python-requests",
+
+  //copilot
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+
+  //fiels
+  "files.associations": {
+    "*.lock": "toml",
+    "*.tpl": "gohtml",
+    "CHANGELOG": "markdown",
+    "README": "markdown",
+    "Dockerfile*": "dockerfile"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/desktop.ini": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+
+  //search
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/vendor": true
+	},
+	"diffEditor.ignoreTrimWhitespace": false
+}
