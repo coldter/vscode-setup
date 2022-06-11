@@ -11,13 +11,14 @@
   "editor.suggestSelection": "first",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
+  "editor.roundedSelection": true,
+  "editor.guides.bracketPairs": true,
 
   //code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  //theming
-  "workbench.colorTheme": "One Dark Pro Flat",
   "workbench.iconTheme": "material-icon-theme",
+
+  //workbench
 
   //telemetry
   "telemetry.enableCrashReporter": false,
@@ -39,7 +40,7 @@
     "markdown": false
   },
 
-  //fiels
+  //files
   "files.associations": {
     "*.lock": "toml",
     "*.tpl": "gohtml",
@@ -66,6 +67,19 @@
     "**/node_modules": true,
     "**/bower_components": true,
     "**/vendor": true
-	},
-	"diffEditor.ignoreTrimWhitespace": false
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Tokyo Night",
+
+  //markdown
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "cSpell.language": "en-GB",
+  "editor.lineNumbers": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.semi": false,
+  "editor.formatOnSave": true,
+  "extensions.ignoreRecommendations": true,
+  "workbench.editor.untitled.hint": "hidden"
 }
